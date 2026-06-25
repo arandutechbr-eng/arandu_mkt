@@ -756,7 +756,7 @@ body {
 }
 
 /* ============================================
-   SLIDE 7 – Pacotes
+   SLIDE 7 – Soluções
    ============================================ */
 .pricing-grid {
   display: grid;
@@ -806,6 +806,22 @@ body {
   padding: 6px 20px;
   border-radius: 50px;
   white-space: nowrap;
+}
+
+.solution-icon {
+  width: 56px;
+  height: 56px;
+  background: var(--gradient-primary);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin: 0 auto 16px;
+}
+
+.pricing-card.featured .solution-icon {
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.35);
 }
 
 .pricing-header h3 {
